@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(geology.jpeg);
+}
+.parent{
+    
+    padding: 70px;
+    border-radius: 60px;
+    height: 78vh;
+    width: 65%;
+    backdrop-filter: blur(20px);
+}
+h1{
+    text-align: center;
+}
+.half{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.first{
+    width: 50%;
+    display: inline-block;
+}
+.half2{
+    display: inline-block;
+    width: 65%;
+    margin: 0 auto;
+    padding: 40px;
+    padding-top: 5px;
+}
+fieldset{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+}
+.email{
+    margin-left: 20px;
+
+}
+.half{
+    padding: 54px;
+}
+input{
+    border-radius: 100px;
+}
+.buttonn{
+   text-align: center;
+}
+button{
+    border-radius: 50px;
+    padding: 5px;
+    width: 150px;
+    background-color: white;
+}
+    
